@@ -1,0 +1,101 @@
+id,text,title
+1,"Python is a versatile programming language widely used in data science, automation, web development, and machine learning.",Python Programming
+2,Machine learning enables computer systems to learn patterns from data and make predictions without being explicitly programmed for every case.,Machine Learning
+3,"Data science combines programming, statistics, and domain knowledge to extract useful insights from structured and unstructured data.",Data Science
+4,Vector databases store numerical embeddings and support fast similarity search across high-dimensional data.,Vector Databases
+5,"Pinecone is a managed vector database commonly used for semantic search, recommendation systems, and retrieval augmented generation.",Pinecone
+6,"Embeddings convert text, images, or other data into numerical vectors that capture semantic relationships.",Embeddings
+7,Retrieval augmented generation retrieves relevant information from an external knowledge base before generating an answer with a language model.,RAG
+8,"Natural language processing allows computers to analyze, understand, and generate human language.",Natural Language Processing
+9,Deep learning uses neural networks with multiple layers to learn complex representations from large amounts of data.,Deep Learning
+10,Neural networks consist of interconnected layers of artificial neurons that transform inputs into useful predictions.,Neural Networks
+11,Supervised learning trains a model using labeled examples where both the input data and expected output are known.,Supervised Learning
+12,Unsupervised learning discovers hidden structures and patterns in data without requiring labeled target values.,Unsupervised Learning
+13,Classification is a machine learning task that predicts which category or class an observation belongs to.,Classification
+14,"Regression models estimate continuous numerical values such as prices, temperatures, salaries, or sales.",Regression
+15,Clustering groups similar observations together based on their features without using predefined class labels.,Clustering
+16,K-Means is a clustering algorithm that partitions observations into groups by minimizing distance to cluster centroids.,K-Means
+17,Decision trees make predictions by recursively splitting data according to feature-based decision rules.,Decision Trees
+18,Random forest combines predictions from many decision trees to improve accuracy and reduce overfitting.,Random Forest
+19,Gradient boosting builds a sequence of weak models where each new model attempts to correct previous errors.,Gradient Boosting
+20,Model evaluation measures how well a trained machine learning model performs on unseen data.,Model Evaluation
+21,Precision measures the correctness of positive predictions while recall measures how many actual positives were successfully identified.,Precision and Recall
+22,ROC AUC evaluates a binary classifier by measuring its ability to rank positive examples above negative examples across thresholds.,ROC AUC
+23,A train test split separates data so a model can learn from one portion and be evaluated on unseen examples.,Train Test Split
+24,Cross validation evaluates a model across multiple train and validation splits to obtain a more reliable performance estimate.,Cross Validation
+25,"Feature engineering creates, transforms, or selects variables that help machine learning models learn useful patterns.",Feature Engineering
+26,"Data cleaning handles missing values, duplicates, inconsistent formats, and other quality problems before analysis.",Data Cleaning
+27,"Pandas provides DataFrame structures and tools for loading, cleaning, transforming, and analyzing tabular data in Python.",Pandas
+28,NumPy provides efficient multidimensional arrays and numerical operations that form the foundation of many Python data science libraries.,NumPy
+29,"Scikit-learn provides practical tools for preprocessing, classification, regression, clustering, model selection, and evaluation.",Scikit-learn
+30,"PyTorch is a deep learning framework that supports tensor computation, automatic differentiation, and neural network development.",PyTorch
+31,"TensorFlow is a machine learning framework used to build, train, evaluate, and deploy neural network models.",TensorFlow
+32,"SQL is used to query, filter, aggregate, join, and manage structured data stored in relational databases.",SQL
+33,Apache Spark is a distributed computing engine designed to process large datasets across multiple machines.,Apache Spark
+34,Databricks provides a collaborative data and AI platform built around technologies such as Apache Spark and Delta Lake.,Databricks
+35,"Delta Lake adds reliable transactions, schema management, and versioning capabilities to data lake storage.",Delta Lake
+36,"A data lake stores large amounts of raw structured, semi-structured, and unstructured data for later processing and analysis.",Data Lake
+37,"ETL stands for extract, transform, and load, a common process for moving and preparing data for analytics.",ETL
+38,"A data pipeline automates the movement and transformation of data between sources, processing systems, and destinations.",Data Pipeline
+39,"Cloud computing provides on-demand computing, storage, database, networking, and AI resources over the internet.",Cloud Computing
+40,"Amazon Web Services provides cloud services for computing, storage, databases, analytics, machine learning, and application deployment.",AWS
+41,"Amazon S3 is object storage used for files, datasets, backups, logs, and data lake workloads in AWS.",Amazon S3
+42,FastAPI is a Python web framework commonly used to create high-performance APIs for machine learning applications.,FastAPI
+43,"A REST API allows software systems to communicate over HTTP using operations such as GET, POST, PUT, and DELETE.",REST API
+44,"JSON is a lightweight text format for representing structured data using objects, arrays, strings, numbers, and other values.",JSON
+45,Git is a distributed version control system used to track code changes and collaborate safely on software projects.,Git
+46,"GitHub hosts Git repositories and provides collaboration features such as pull requests, issues, actions, and project management.",GitHub
+47,Docker packages applications and their dependencies into portable containers that behave consistently across environments.,Docker
+48,"MLOps applies software engineering and operational practices to machine learning model training, deployment, monitoring, and maintenance.",MLOps
+49,"Model deployment makes a trained machine learning model available to applications or users through an API, batch job, or other interface.",Model Deployment
+50,"Model monitoring tracks prediction quality, latency, failures, and data drift after a machine learning system is deployed.",Model Monitoring
+51,Data drift occurs when the statistical characteristics of production input data change compared with the model training data.,Data Drift
+52,Overfitting happens when a model learns training data too closely and performs poorly on new unseen examples.,Overfitting
+53,Underfitting occurs when a model is too simple to capture important patterns in the training data.,Underfitting
+54,"Hyperparameters are configuration values chosen before training, such as learning rate, tree depth, or number of estimators.",Hyperparameters
+55,Grid search evaluates predefined combinations of hyperparameters to identify settings that perform well on validation data.,Grid Search
+56,Normalization rescales numerical features to a common range and can improve the behavior of distance-based algorithms.,Normalization
+57,Standardization transforms a numerical feature so that it typically has a mean of zero and a standard deviation of one.,Standardization
+58,"Missing values represent unavailable observations and can be removed, filled, or modeled depending on the dataset and task.",Missing Values
+59,One hot encoding converts categorical values into separate binary features so many machine learning algorithms can use them.,One Hot Encoding
+60,TF-IDF represents text using word importance based on frequency within a document and rarity across the document collection.,TF-IDF
+61,Cosine similarity measures the angle between vectors and is frequently used to compare text embeddings.,Cosine Similarity
+62,Euclidean distance measures the straight-line distance between points in a multidimensional feature space.,Euclidean Distance
+63,Semantic search retrieves content based on meaning rather than relying only on exact keyword matches.,Semantic Search
+64,Similarity search finds stored vectors that are closest to a query vector according to a selected distance metric.,Similarity Search
+65,A vector index organizes embeddings so nearest-neighbor searches can be performed efficiently at scale.,Vector Index
+66,"Metadata filtering restricts vector search results using attributes such as category, date, author, genre, or access level.",Metadata Filtering
+67,Chunking divides long documents into smaller text segments before embedding them for retrieval systems.,Chunking
+68,Document retrieval identifies information that is relevant to a user's query from a collection of stored documents.,Document Retrieval
+69,"Large language models learn statistical patterns from massive text datasets and can perform generation, summarization, extraction, and reasoning tasks.",Large Language Models
+70,Prompt engineering designs clear instructions and context that guide language models toward useful outputs.,Prompt Engineering
+71,"Tokens are units of text processed by language models and may represent words, parts of words, punctuation, or other character sequences.",Tokens
+72,A context window is the maximum amount of tokenized information a language model can consider during a request.,Context Window
+73,"In generative AI, hallucination refers to output that sounds plausible but is unsupported or factually incorrect.",Hallucination
+74,"AI agents combine language models with tools, memory, and decision logic to perform multi-step tasks.",AI Agents
+75,"Recommendation systems predict items that may be relevant to users based on preferences, behavior, content, or similar users.",Recommendation Systems
+76,"Computer vision enables machines to analyze visual information such as photographs, videos, scans, and camera streams.",Computer Vision
+77,Image classification assigns an image to one or more predefined categories using visual features learned from data.,Image Classification
+78,Object detection identifies both the category and location of objects within an image.,Object Detection
+79,YOLO is a family of real-time object detection models designed to predict object classes and bounding boxes efficiently.,YOLO
+80,Convolutional neural networks use learnable filters to extract spatial patterns from images and other grid-like data.,Convolutional Neural Networks
+81,Transfer learning reuses knowledge from a pretrained model and adapts it to a new task with less training data.,Transfer Learning
+82,Fine tuning continues training a pretrained model on task-specific data to adapt its behavior or representations.,Fine Tuning
+83,The learning rate controls the size of parameter updates during model optimization and strongly affects training behavior.,Learning Rate
+84,An epoch represents one complete pass through the training dataset during machine learning model training.,Epoch
+85,Batch size is the number of training examples processed before the model parameters are updated.,Batch Size
+86,A loss function quantifies prediction error and provides the optimization objective used during model training.,Loss Function
+87,Gradient descent updates model parameters in the direction that reduces the value of a differentiable loss function.,Gradient Descent
+88,Backpropagation computes gradients through a neural network so optimization algorithms can update its weights.,Backpropagation
+89,"A confusion matrix summarizes classification predictions using counts such as true positives, false positives, true negatives, and false negatives.",Confusion Matrix
+90,Accuracy is the proportion of predictions that a classification model gets correct across all evaluated examples.,Accuracy
+91,The F1 score combines precision and recall using their harmonic mean and is useful when class balance matters.,F1 Score
+92,Mean absolute error calculates the average absolute difference between predicted and actual numerical values.,Mean Absolute Error
+93,"Mean squared error averages squared prediction errors, giving larger errors greater influence on the final metric.",Mean Squared Error
+94,R squared measures the proportion of variation in a continuous target that is explained by a regression model.,R Squared
+95,"Exploratory data analysis uses statistics and visualizations to understand distributions, relationships, anomalies, and data quality.",Exploratory Data Analysis
+96,"Data visualization communicates patterns and insights through graphical representations such as charts, plots, and dashboards.",Data Visualization
+97,Matplotlib is a Python library for creating charts and other visualizations from numerical and tabular data.,Matplotlib
+98,Probability provides mathematical tools for reasoning about uncertainty and is fundamental to statistics and machine learning.,Probability
+99,"Statistics provides methods for collecting, summarizing, analyzing, and drawing conclusions from data.",Statistics
+100,"Linear algebra studies vectors, matrices, and transformations and is a core mathematical foundation of machine learning.",Linear Algebra
